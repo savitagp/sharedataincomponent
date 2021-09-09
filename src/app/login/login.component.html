@@ -1,0 +1,69 @@
+<div class="container">
+    <h1>
+        User registration
+    </h1>
+<form>
+    <div class = "form-group">
+        <label for="firstname">FirstName</label><br>
+        <input type="text" name = "firstname" class="form-control" [(ngModel)] ="person.firstName">
+    </div>
+    <pre></pre>
+    <div class = "form-group">
+        <label for="lastname">LastName</label><br>
+        <input type="text" name = "lastname" class="form-control" [(ngModel)] ="person.lastName">
+    </div>
+    <div class = "form-group">
+        <label for="age">Age</label><br>
+        <input type="number" name = "age" class="form-control" [(ngModel)] ="person.age">
+    </div>
+   
+    <div class = "form-group">
+        <label for="email">Email</label><br>
+        <input type="text" name = "email" class="form-control" [(ngModel)] ="person.email">
+    </div>
+    <pre></pre>
+    <div class = "form-group">
+        <label for="password">Password</label><br>
+        <input type="password" name = "password" class="form-control" ngModel>
+    </div>
+    <pre></pre>
+    <!-- <input type="submit" value="submit"> -->
+    <button (click)="addPerson()" class="btn btn-primary" >submit</button> 
+</form>
+</div>
+
+
+
+<!-- <div class="container">
+    <h1>
+        User registration
+    </h1>
+<form>
+    <div class = "form-group">
+        <label for="firstname">FirstName</label><br>
+        <input type="text" name = "firstname" class="form-control" [(ngModel)] ="registration.firstname">
+    </div>
+    <pre></pre>
+    <div class = "form-group">
+        <label for="lastname">LastName</label><br>
+        <input type="text" name = "lastname" class="form-control" [(ngModel)] ="registration.lastname">
+    </div>
+    <div class = "form-group">
+        <label for="age">Age</label><br>
+        <input type="number" name = "age" class="form-control" [(ngModel)] ="registration.age">
+    </div>
+    <pre></pre>
+    <div class = "form-group">
+        <label for="email">Email</label><br>
+        <input type="text" name = "email" class="form-control" [(ngModel)] ="registration.email">
+    </div>
+    <pre></pre>
+    <div class = "form-group">
+        <label for="password">Password</label><br>
+        <input type="password" name = "password" class="form-control" ngModel>
+    </div>
+    <pre></pre>
+     <input type="submit" value="submit"> 
+    <button type="submit" class="btn btn-primary" >submit</button> 
+</form>
+</div> -->
